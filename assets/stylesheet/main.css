@@ -178,12 +178,20 @@ header {
 	transform: 	rotate(360deg)  translateX(30px) rotate(-360deg);
 	}
 }
+@keyframes move1 {
+	from {
+	transform: 	rotate(360deg)  translateX(30px) rotate(-360deg);
+	}
+	to{
+	transform: 	rotate(0deg) translateX(30px) rotate(0deg);
+	}
+}
 .fb {
 	position: absolute;
 	z-index: -1;
 	left: 4%;
 	top: 12%;
-	animation-name: move;
+	animation-name: move1;
 	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -203,7 +211,7 @@ header {
 	z-index: -1;
 	left: 25%;
 	top: 45%;
-	animation-name: move;
+	animation-name: move1;
 	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -221,7 +229,7 @@ header {
 .linkedin {
 	position: absolute;
 	z-index: -1;
-	left: 50%;
+	left: 40%;
 	top: 70%;
 	animation-name: move;
 	animation-duration: 2s;
@@ -233,7 +241,7 @@ header {
 	z-index: -1;
 	right: 2%;
 	top: 30%;
-	animation-name: move;
+	animation-name: move1;
 	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -243,7 +251,7 @@ header {
 	z-index: -1;
 	left: 35%;
 	top: 90%;
-	animation-name: move;
+	animation-name: move1;
 	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -262,8 +270,8 @@ header {
 	position: absolute;
 	z-index: -1;
 	left: 45%;
-	top: 28%;
-	animation-name: move;
+	top: 53%;
+	animation-name: move1;
 	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -273,7 +281,7 @@ header {
 	z-index: -1;
 	right: 12%;
 	bottom: 15%;
-	animation-name: move;
+	animation-name: move1;
 	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -291,9 +299,9 @@ header {
 .spotify {
 	position: absolute;
 	z-index: -1;
-	left: 45%;
-	top: 28%;
-	animation-name: move;
+	left: 7%;
+	top: 82%;
+	animation-name: move1;
 	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -302,7 +310,27 @@ header {
 	position: absolute;
 	z-index: -1;
 	right: 18%;
-	top: 18%;
+	top: 12%;
+	animation-name: move;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+.snapchat{
+	position: absolute;
+	z-index: -1;
+	left: 47%;
+	top: 25%;
+	animation-name: move1;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+.slack {
+	position: absolute;
+	z-index: -1;
+	right: 37%;
+	bottom: 18%;
 	animation-name: move;
 	animation-duration: 2s;
 	animation-timing-function: linear;
